@@ -13,7 +13,7 @@
 
 Route::post('/guardar','clientesCotroller@guardar');
 
-Route::get('/Registro','clientesCotroller@registro');
+Route::get('/registro','clientesCotroller@registro');
 
 Route::get('/', function () {
     return view('welcome');
